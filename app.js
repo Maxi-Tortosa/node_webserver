@@ -1,8 +1,9 @@
 const express = require('express');
 var hbs = require('hbs');
+require('dotenv').config();
 
 const app = express();
-const port = 8090;
+const port = process.env.PORT;
 
 //Setear handlebars
 
